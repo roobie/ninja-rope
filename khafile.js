@@ -1,4 +1,4 @@
-let project = new Project('New Project')
+let project = new Project('Ninja rope')
 
 project.addAssets('Assets/**')
 

@@ -19,7 +19,8 @@ class Entity {
 
 	public function update(deltaTime:Float): Void {
 		Physics.applyGravity(this, deltaTime);
-		this.position = this.position.add(this.momentum);
+		this.position.x += this.momentum.x;
+		this.position.y += this.momentum.y;
 	}
 	public function render(g: Graphics): Void {}
 }
