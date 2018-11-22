@@ -1,6 +1,12 @@
-let project = new Project('New Project');
-project.addAssets('Assets/**');
-project.addShaders('Shaders/**');
-project.addSources('Sources');
+let project = new Project('New Project')
+
+project.addAssets('Assets/**')
+
+project.addShaders('Shaders/**')
+
+project.addSources('Sources')
+
 project.addLibrary('actuate')
-resolve(project);
+project.addLibrary('box2d')
+
+resolve(project)

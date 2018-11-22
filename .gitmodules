@@ -1,0 +1,6 @@
+[submodule "Libraries/actuate"]
+	path = Libraries/actuate
+	url = https://github.com/jgranick/actuate.git
+[submodule "Libraries/box2d"]
+	path = Libraries/box2d
+	url = https://github.com/openfl/box2d.git
